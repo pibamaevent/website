@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+/* BAR */
+.BAR {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  height: 100px;
+  box-shadow: 0 7px 15px rgb(0, 0, 0.5);
+}
+
+.BAR > img {
+  height: 150px;
+  width: 120px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -2.07rem;
+  transition: 0.2s;
+}
+
+.ul-BAR {
+  box-decoration-break: none;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.li-BAR {
+  color: rgb(255, 255, 255);
+  list-style-type: none;
+  margin: 15px;
+  font-size: 25px;
+  font-family: fantasy;
+  padding: 5px;
+}
+
+.li-BAR > a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.li-BAR > a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  transition: 0.4s ease-in;
+  transition: 0.4s ease-out;
+  border-radius: 2px;
+  padding: 5px;
+  transition-delay: 0.2s;
+}
+
+.BAR > img:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  transform: scale(1);
+  transition: 0.4s;
+  border-radius: 5px;
+  padding: 5px;
+  transition-delay: 0.2s;
+}
+
+/* CONTENT */
+.inform {
+  justify-content: center;
+  text-align: center;
+  background-color: aqua;
+}
+
+.main {
+  text-align: left;
+  justify-content: left;
+  font-size: 50px;
+  font-family: fantasy;
+  padding: 10rem;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 7px 15px rgb(0, 0, 0.5);
+}
+.main > h6 {
+  word-spacing: 4px;
+  font-size: 23px;
+}
+
+.jadwal {
+  justify-content: center;
+  text-align: center;
+  margin-top: rem;
+}
+
+.jadwal > table,
+th,
+td {
+  padding: 15px;
+  justify-content: center;
+  text-align: center;
+  word-spacing: 5px;
+  margin-left: 25rem;
+}
+
+/* LINK */
+.content {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  height: 50px;
+}
+
+.content > h2 {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.konten {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  margin: rem;
+  color: white;
+  height: 240px;
+  box-shadow: 0 7px 15px rgb(247, 247, 255);
+}
+
+/* line */
+.line {
+  background-color: white;
+  box-shadow: 0 7px 15px rgb(247, 247, 255);
+}
+
+/* CRIGHT */
+.CORIGHT {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  justify-content: left;
+  text-align: left;
+  padding: 2rem;
+}
+
+/* CRIGHT */
+.CORIGHT > h6 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  margin: 1rem;
+  height: 2px;
+}
+
+.CORIGHT > h4 {
+  margin-left: 1rem;
+}
+
+.CORIGHT > h4 > a {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}

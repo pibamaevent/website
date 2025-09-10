@@ -6,12 +6,14 @@
 body {
   min-height: 100vh;
   min-width: 100vh;
-  background-color: rgb(255, 255, 255);
 }
 
 /* BAR */
 .BAR {
+  top: 0;
+  position: fixed;
   background-color: rgb(0, 0, 0);
+  width: 100%;
   display: flex;
   height: 100px;
   box-shadow: 0 7px 15px rgb(0, 0, 0.5);
@@ -77,6 +79,9 @@ body {
   background-color: aqua;
 }
 
+.backgro>img{
+  position: absolute;
+}
 
 .main {
   text-align: left;
@@ -126,6 +131,7 @@ body {
 .jadwal {
   justify-content: center;
   text-align: center;
+  align-items: center;
   margin-top: rem;
 }
 
@@ -168,7 +174,7 @@ td {
   padding: 2rem;
   margin: 0rem;
   color: white;
-  height: 300px;
+  height: 400px;
 }
 
 
@@ -176,7 +182,7 @@ td {
   height: 2px;
   background-color: white;
   margin-top: -1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: black;
 }
 
@@ -185,6 +191,41 @@ td {
   margin-top: 2rem;
 }
 
+.presnt{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+  background-color: black;
+
+}
+
+.presnt>h6{
+  height: 2px;
+  background-color: white;
+  margin-top: -1rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.presnt>img{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -8rem;
+}
+
+.presnt>h2{
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 /* profile info register */
 .maineg{
@@ -193,6 +234,11 @@ td {
   align-items: center;
   margin-top: 4rem;
   font-size: 40px;
+}
+
+.maineg>h1{
+  padding-top: 5rem;
+  margin-top: 4rem;
 }
 
 .maineg>h6{
@@ -235,7 +281,7 @@ td {
 
 .lain>p{
   margin-top: 1rem;
-  font-size: 20px;
+  font-size: larger;
 }
 
 .lain>h6{
@@ -280,7 +326,6 @@ td {
   text-decoration: none; 
   list-style-type: none; 
   list-style: none;
-  font-size: large;
   margin-top: 0.5rem;
 }
 
@@ -288,7 +333,7 @@ td {
   justify-content: center;
   text-align: center;
   word-spacing: 5px;
-  width: 97%;
+  width: 100%;
   font-size: larger;
   margin-top: 2rem;
   margin-left: 2rem;
@@ -298,6 +343,7 @@ td {
   list-style-type: none;
   list-style: none;
   text-decoration: none;
+  margin-right: 0.5rem;
 }
 
 .putra{

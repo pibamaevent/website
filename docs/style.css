@@ -5,7 +5,7 @@
 }
 
 body {
-   background-color: #d6c0a3;
+  background-color: #d6c0a3;
   min-height: 100vh;
   min-width: 100vh;
 }
@@ -433,19 +433,19 @@ td {
 .gambarwa2 {
   width: 20px;
   height: 20px;
-  position: relative;
+
 }
 
 .gambarig1 {
   width: 20px;
   height: 20px;
-  position: relative;
+
 }
 
 .gambarig2 {
   width: 20px;
   height: 20px;
-  position: relative;
+
 }
 
 .namakaka {

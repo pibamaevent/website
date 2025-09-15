@@ -391,3 +391,43 @@ td {
   text-decoration: none;
   list-style-type: none;
 }
+
+.gambarwa1 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.CORIGHT > button {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  margin-left: 500px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  background-color: black;
+  border-style: none;
+}
+
+.gambarwa2 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+.gambarig1 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+.gambarig2 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+.namakaka {
+  font-size: 20px;
+  margin-left: 485px;
+}

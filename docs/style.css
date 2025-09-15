@@ -1,9 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+ 
 }
 
 body {
+   background-color: #d6c0a3;
   min-height: 100vh;
   min-width: 100vh;
 }
@@ -68,8 +70,13 @@ body {
   transform: scale(1);
   transition: 0.4s;
   border-radius: 5px;
-  padding: 5px;
+  padding: 2px;
   transition-delay: 0.2s;
+}
+
+.head-BAR>h1{
+  color: white;
+  text-align: center;
 }
 
 /* CONTENT */
@@ -91,40 +98,52 @@ body {
   padding: 10rem;
   color: rgb(0, 0, 0);
 }
+.main{
+  background-image: url(gambar/Hitam.png);
+}
 .main > h6 {
   word-spacing: 4px;
   font-size: 23px;
 }
-
-.main > button {
-  margin-left: -2rem;
-  margin-top: 2rem;
-  padding: 0rem;
+.button{
+  text-align: left;
+  justify-content: left;
+  font-size: larger;
+  font-family: fantasy;
+  margin-left: 10rem;
+  color: rgb(0, 0, 0);
+}
+.button>button{
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: black;
+  margin-top: -9rem;
   list-style-type: none;
+  text-decoration: none;
   border-style: none;
   text-align: left;
   justify-content: left;
   align-items: left;
-  background-color: white;
   font-size: large;
 }
-.main > button > a {
-  background-color: black;
+.button>button>a{
   color: white;
-  border-radius: 10px;
-  margin: 2rem;
-  padding: 1rem;
   list-style-type: none;
   text-decoration: none;
   border-style: none;
+  text-align: left;
+  justify-content: left;
+  align-items: left;
+  font-size: large;
 }
-.main > button > a:hover {
+
+.button >button> a:hover {
   background-color: rgb(255, 255, 255);
   color: black;
   transition: 0.4s ease-in;
   transition: 0.4s ease-out;
-  border-radius: 2px;
-  padding: 5px;
+  border-radius: 10px;
+  padding: 0.6rem;
   transition-delay: 0.2s;
 }
 
@@ -217,7 +236,9 @@ td {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: -8rem;
+  width: 300px;
+  height: 300px;
+  margin-top: rem;
 }
 
 .presnt>h2{
@@ -258,7 +279,7 @@ td {
   align-items: center;
   margin-left: 20rem;
   margin-right: 20rem;
-  color: rgb(255, 255, 255);
+  color: #d6c0a3;
 }
 
 .infg>h1{
@@ -293,7 +314,7 @@ td {
   text-align: center;
   align-items: center;
   margin-left: 3rem;
-  color: rgb(255, 255, 255);
+  color: #d6c0a3;
 }
 
 .kale{
@@ -319,7 +340,7 @@ td {
   align-items: center;
   margin-left: rem;
   margin-right: 2rem;
-  color: rgb(255, 255, 255);
+  color: #d6c0a3;
 }
 
 .kale>ul>li{

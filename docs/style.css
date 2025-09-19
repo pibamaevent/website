@@ -1,11 +1,15 @@
 * {
+  top: 0;
+  left: 0;
+  right: 0;
+  left: 0;
   margin: 0;
   padding: 0;
- 
+
 }
 
 body {
-   background-color: #d6c0a3;
+  background-color: #d6c0a3;
   min-height: 100vh;
   min-width: 100vh;
 }
@@ -21,7 +25,7 @@ body {
   box-shadow: 0 7px 15px rgb(0, 0, 0.5);
 }
 
-.BAR > img {
+.BAR>img {
   height: 150px;
   width: 120px;
   justify-content: center;
@@ -48,13 +52,13 @@ body {
   padding: 5px;
 }
 
-.li-BAR > a {
+.li-BAR>a {
   color: rgb(255, 255, 255);
   text-decoration: none;
   transition: 0.2s;
 }
 
-.li-BAR > a:hover {
+.li-BAR>a:hover {
   background-color: rgb(255, 255, 255);
   color: black;
   transition: 0.4s ease-in;
@@ -64,7 +68,7 @@ body {
   transition-delay: 0.2s;
 }
 
-.BAR > img:hover {
+.BAR>img:hover {
   background-color: rgb(255, 255, 255);
   color: black;
   transform: scale(1);
@@ -74,7 +78,7 @@ body {
   transition-delay: 0.2s;
 }
 
-.head-BAR>h1{
+.head-BAR>h1 {
   color: white;
   text-align: center;
 }
@@ -86,7 +90,7 @@ body {
   background-color: aqua;
 }
 
-.backgro>img{
+.backgro>img {
   position: absolute;
 }
 
@@ -98,14 +102,17 @@ body {
   padding: 10rem;
   color: rgb(0, 0, 0);
 }
-.main{
+
+.main {
   background-image: url(gambar/Hitam.png);
 }
-.main > h6 {
+
+.main>h6 {
   word-spacing: 4px;
   font-size: 23px;
 }
-.button{
+
+.button {
   text-align: left;
   justify-content: left;
   font-size: larger;
@@ -113,7 +120,8 @@ body {
   margin-left: 10rem;
   color: rgb(0, 0, 0);
 }
-.button>button{
+
+.button>button {
   padding: 0.5rem;
   border-radius: 10px;
   background-color: black;
@@ -126,7 +134,8 @@ body {
   align-items: left;
   font-size: large;
 }
-.button>button>a{
+
+.button>button>a {
   color: white;
   list-style-type: none;
   text-decoration: none;
@@ -137,7 +146,7 @@ body {
   font-size: large;
 }
 
-.button >button> a:hover {
+.button>button>a:hover {
   background-color: rgb(255, 255, 255);
   color: black;
   transition: 0.4s ease-in;
@@ -154,7 +163,7 @@ body {
   margin-top: rem;
 }
 
-.jadwal > table,
+.jadwal>table,
 th,
 td {
   padding: 15px;
@@ -163,6 +172,7 @@ td {
   word-spacing: 5px;
   margin-left: 25rem;
 }
+
 /* gambare */
 .Gambare {
   justify-content: center;
@@ -178,7 +188,7 @@ td {
   height: 50px;
 }
 
-.content > h2 {
+.content>h2 {
   display: flex;
   justify-content: left;
   text-align: left;
@@ -197,7 +207,7 @@ td {
 }
 
 
-.konten>h6{
+.konten>h6 {
   height: 2px;
   background-color: white;
   margin-top: -1rem;
@@ -205,12 +215,12 @@ td {
   color: black;
 }
 
-.konten>h3{
+.konten>h3 {
   font-size: 25px;
   margin-top: 2rem;
 }
 
-.presnt{
+.presnt {
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -219,7 +229,7 @@ td {
 
 }
 
-.presnt>h6{
+.presnt>h6 {
   height: 2px;
   background-color: white;
   margin-top: -1rem;
@@ -232,7 +242,7 @@ td {
   color: black;
 }
 
-.presnt>img{
+.presnt>img {
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -241,7 +251,7 @@ td {
   margin-top: rem;
 }
 
-.presnt>h2{
+.presnt>h2 {
   color: white;
   justify-content: center;
   align-items: center;
@@ -249,7 +259,7 @@ td {
 }
 
 /* profile info register */
-.maineg{
+.maineg {
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -257,19 +267,19 @@ td {
   font-size: 40px;
 }
 
-.maineg>h1{
+.maineg>h1 {
   padding-top: 5rem;
   margin-top: 4rem;
 }
 
-.maineg>h6{
+.maineg>h6 {
   justify-content: center;
   text-align: center;
   align-items: center;
   margin-top: -0.5rem;
 }
 
-.maineg>h5{
+.maineg>h5 {
   height: 3px;
   background-color: rgb(0, 0, 0);
   margin-top: 1rem;
@@ -282,7 +292,7 @@ td {
   color: #d6c0a3;
 }
 
-.infg>h1{
+.infg>h1 {
   justify-content: left;
   text-align: left;
   align-items: left;
@@ -291,7 +301,7 @@ td {
   margin-top: 10rem;
 }
 
-.lain{
+.lain {
   justify-content: right;
   text-align: right;
   align-items: right;
@@ -300,12 +310,12 @@ td {
   margin-top: 8rem;
 }
 
-.lain>p{
+.lain>p {
   margin-top: 1rem;
   font-size: larger;
 }
 
-.lain>h6{
+.lain>h6 {
   height: 3px;
   background-color: rgb(0, 0, 0);
   margin-top: -7rem;
@@ -317,8 +327,8 @@ td {
   color: #d6c0a3;
 }
 
-.kale{
-    justify-content: left;
+.kale {
+  justify-content: left;
   text-align: left;
   align-items: left;
   margin-bottom: 4rem;
@@ -326,11 +336,11 @@ td {
   margin-top: 5rem;
 }
 
-.kale>h1{
+.kale>h1 {
   margin-bottom: 1rem;
 }
 
-.kale>h6{
+.kale>h6 {
   height: 3px;
   background-color: rgb(0, 0, 0);
   margin-top: 8rem;
@@ -343,14 +353,14 @@ td {
   color: #d6c0a3;
 }
 
-.kale>ul>li{
-  text-decoration: none; 
-  list-style-type: none; 
+.kale>ul>li {
+  text-decoration: none;
+  list-style-type: none;
   list-style: none;
   margin-top: 0.5rem;
 }
 
-.infg>table{
+.infg>table {
   justify-content: center;
   text-align: center;
   word-spacing: 5px;
@@ -360,20 +370,20 @@ td {
   margin-left: 2rem;
 }
 
-.wa>a{
+.wa>a {
   list-style-type: none;
   list-style: none;
   text-decoration: none;
   margin-right: 0.5rem;
 }
 
-.putra{
+.putra {
   justify-content: left;
   text-align: left;
   align-items: left;
 }
 
-.uang{
+.uang {
   justify-content: right;
   text-align: right;
   align-items: right;
@@ -395,7 +405,7 @@ td {
 }
 
 /* CRIGHT */
-.CORIGHT > h6 {
+.CORIGHT>h6 {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   margin: 1rem;
@@ -403,23 +413,19 @@ td {
   margin-bottom: 2rem;
 }
 
-.CORIGHT > h4 {
-  margin-left: 1rem;
+.CORIGHT>h5 {
+  text-align: center;
+
 }
 
-.CORIGHT > h4 > a {
+.CORIGHT>h5>a {
   color: white;
   text-decoration: none;
   list-style-type: none;
+  text-align: center;
 }
 
-.gambarwa1 {
-  width: 50px;
-  height: 50px;
-  position: relative;
-}
-
-.CORIGHT > button {
+.CORIGHT>button {
   width: 50px;
   height: 50px;
   position: relative;
@@ -430,25 +436,51 @@ td {
   border-style: none;
 }
 
+.gambarwa1 {
+  width: 50px;
+  height: 50px;
+}
+
 .gambarwa2 {
-  width: 20px;
-  height: 20px;
-  position: relative;
+  width: 50px;
+  height: 50px;
 }
 
 .gambarig1 {
-  width: 20px;
-  height: 20px;
-  position: relative;
+  width: 50px;
+  height: 50px;
 }
 
 .gambarig2 {
-  width: 20px;
-  height: 20px;
-  position: relative;
+  width: 50px;
+  height: 50px;
 }
 
 .namakaka {
   font-size: 20px;
-  margin-left: 485px;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+}
+
+.namachandra {
+  font-size: 20px;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+
+}
+
+.igpibama {
+  font-size: 20px;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+}
+
+.igevent {
+  font-size: 20px;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
 }

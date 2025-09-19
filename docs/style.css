@@ -8,12 +8,14 @@
 
 }
 
+
 body {
   background-color: #d6c0a3;
   min-height: 100vh;
-  min-width: 100vh;
-  object-fit: auto;
+  min-width: 100vw;
+  object-fit: cover;
 }
+
 
 /* BAR */
 .BAR {
@@ -107,6 +109,8 @@ body {
 .main {
   background-image: url(gambar/Hitam.png);
 }
+
+.main>h1 {}
 
 .main>h6 {
   word-spacing: 4px;
@@ -485,4 +489,19 @@ td {
   text-decoration: none;
   list-style-type: none;
   text-align: center;
+}
+@media only screen and (max-width: 1024px) {
+
+  .main {
+    font-size: 3rem;
+    padding: 8rem 2rem;
+  }
+
+  .li-BAR {
+    font-size: 1.5rem;
+  }
+
+  .button>button {
+    font-size: 1.2rem;
+  }
 }

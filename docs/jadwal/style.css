@@ -67,3 +67,24 @@
   position: relative;
   padding: 5px;
 }
+
+.jadwal{
+    width: 100px;
+    height: 100px;
+}
+
+.jadwal > h4 {
+    margin-top: 15;
+}
+
+.jadwal > h4 > a {
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+  color: white;
+  font-size: 25px;
+  font-family: fantasy;
+  margin: 15px;
+  position: relative;
+  padding: 5px;
+}

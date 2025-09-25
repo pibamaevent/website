@@ -1,0 +1,125 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TEAM</title>
+</head>
+<style>
+    .row {
+        margin-top: 5rem;
+        margin-left: 2rem;
+    }
+
+    .ear {
+        position: absolute;
+        margin-top: 5rem;
+        margin-left: 72rem;
+    }
+
+    .ear>button {
+        height: 50px;
+        width: 100px;
+    }
+
+    #mySearch {
+        width: 1100px;
+        height: 50px;
+    }
+
+    #myMenu {
+        list-style-type: none
+    }
+</style>
+
+<body>
+    <!-- BAR -->
+    <div class="BAR">
+        <img src="LOGO-r.png" alt="">
+        <div class="nav">
+            <ul class="ul-BAR">
+                <li class="li-BAR">
+                    <a href="index.html">HOME</a>
+                </li>
+                <li class="li-BAR">
+                    <a href="profile.html">INFO</a>
+                </li>
+                <li class="li-BAR">
+                    <a href="info.html">SCHEDULE</a>
+                </li>
+                <li class="li-BAR">
+                    <a href="galeri.html">GALERI</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <!-- keyword -->
+
+    <div class="row">
+        <div class="left" style="background-color:#bbb;">
+            <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+            <ul id="myMenu">
+                <li><a href="#">SMPN 2 PURWOREJO</a></li>
+                <li><a href="#">SMPN 6 PURWOREJO</a></li>
+                <li><a href="#">SMPN 3 PURWOREJO</a></li>
+                <li><a href="#">SMPN 2 KUTOWINANGUN</a></li>
+                <li><a href="#">SMP MUHAMMADIYAH PURWOREJO</a></li>
+                <li><a href="#">SMP DARUL HIKMAH PURWOREJO</a></li>
+                <li><a href="#">SMPN 5 PURWOREJO</a></li>
+                <li><a href="#">SMPN 3 GOMBONG</a></li>
+                <li><a href="#">MTS AN-NAWAWI</a></li>
+                <li><a href="#">SMP PIUS GOMBONG</a></li>
+                <li><a href="#">SMP PIUS KEBUMEN</a></li>
+                <li><a href="#">SMP PIUS KUTOARJO</a></li>
+                <li><a href="#">SMPN 25 PURWOREJO</a></li>
+                <li><a href="#">SMPN 1 PURWOREJO</a></li>
+                <li><a href="#">SMPN 33 PURWOREJO</a></li>
+                <li><a href="#">MTS N 4 MAGELANG</a></li>
+                <li><a href="#">SMPN 1 WELAHAN JEPARA</a></li>
+                <li><a href="#">SMPN 1 BOROBUDUR</a></li>
+                <li><a href="#">SMPN 13 PURWOREJO</a></li>
+                <!-- SELANJUT -->
+                <li><a href="#"> </a></li>
+                <li><a href="#"> </a></li>
+                <li><a href="#"> </a></li>
+                <li><a href="#"> </a></li>
+                <li><a href="#"> </a></li>
+                <li><a href="#"> </a></li>
+                <li><a href="#"> </a></li>
+                <li><a href="#"> </a></li>
+                <li><a href="#"> </a></li>
+                <li><a href="#"> </a></li>
+                <li><a href="#"> </a></li>
+                <li><a href="#"> </a></li>
+                <li><a href="#"> </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="ear"> <button type="submit" class="btn btn-sm btn-info"><i class="fasearch"></i> Search</button>
+    </div>
+
+    <script>
+        function myFunction() {
+            var input, filter, ul, li, a, i;
+            input = document.getElementById("mySearch");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myMenu");
+            li = ul.getElementsByTagName("li");
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

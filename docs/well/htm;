@@ -1,671 +1,21 @@
-* {
-  top: 0;
-  left: 0;
-  right: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
-
-}
-
-
-body {
-  background-color: #d6c0a3;
-  min-height: 100vh;
-  min-width: 100vw;
-  object-fit: cover;
-}
-
-
-/* BAR */
-.BAR {
-  top: 0;
-  position: fixed;
-  background-color: rgb(0, 0, 0);
-  width: 100%;
-  height: 70px;
-  box-shadow: 0 7px 15px rgb(0, 0, 0.5);
-}
-
-.nav {
-  margin-left: -680px;
-  margin-top: -85px;
-}
-
-.BAR>img {
-  height: 110px;
-  width: 90px;
-  margin-left: 0rem;
-  justify-content: center;
-  align-items: center;
-  margin-top: -1.5rem;
-  transition: 0.2s;
-}
-
-.menu>img {
-  height: 40px;
-  width: 40px;
-  margin-right: -70rem;
-  justify-content: center;
-  align-items: center;
-  margin-top: -3.1rem;
-  transition: 0.2s;
-}
-
-.ul-BAR {
-  box-decoration-break: none;
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin-top: 0.1rem;
-}
-
-.li-BAR {
-  color: #d6c0a3;
-  list-style-type: none;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  margin: 15px;
-  font-size: 25px;
-  font-family: fantasy;
-  padding-right: 15px;
-}
-
-.li-BAR>a {
-  color: #f1ede6;
-  text-decoration: none;
-  transition: 0.2s;
-}
-
-.li-BAR>a:hover {
-  background-color: rgb(255, 255, 255);
-  color: black;
-  transition: 0.4s ease-in;
-  transition: 0.4s ease-out;
-  border-radius: 2px;
-  transition-delay: 0.2s;
-}
-
-.BAR>img:hover {
-  color: black;
-  transform: scale(1.2);
-  transition: 0.4s;
-  border-radius: 5px;
-  transition-delay: 0.2s;
-}
-
-.head-BAR>h1 {
-  color: white;
-  text-align: center;
-}
-
-.form-control {
-  border-radius: 80px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 1000px;
-  height: 50px;
-  margin-top: 6rem;
-  margin-left: 2rem;
-  background-color: #000000;
-  padding: 5px;
-}
-
-.form {
-  border-radius: 80px;
-  padding: 10px;
-  width: 99%;
-  HEIGHT: 48px;
-}
-
-
-
-.btul {
-  border-radius: 80px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  margin-left: 65rem;
-  margin-top: -3rem;
-  width: 100px;
-  height: 50px;
-}
-
-.menubtn {
-  color: white;
-  width: 50px;
-  height: 50px;
-}
-
-/* CONTENT */
-.inform {
-  justify-content: center;
-  text-align: center;
-  background-color: aqua;
-}
-
-.backgro>img {
-  position: absolute;
-}
-
-.main {
-  text-align: left;
-  justify-content: left;
-  font-size: 50px;
-  font-family: fantasy;
-  padding: 10rem;
-  color: rgb(0, 0, 0);
-}
-
-.main>h1 {
-  font-size: 100px;
-  position: relative;
-  animation-name: myAnimation;
-  animation-duration: 2s;
-  animation-delay: 0.1s;
-  transition-delay: 0.2s;
-}
-
-.main>h6 {
-  width: 747px;
-  height: 28px;
-  position: relative;
-  animation-name: myAnimation;
-  animation-duration: 2s;
-  animation-delay: 0.1s;
-  transition-delay: 0.2s;
-}
-
-.button {
-  width: 67px;
-  height: 37px;
-  position: relative;
-  animation-name: myAnimation;
-  animation-duration: 2s;
-  animation-delay: 0.1s;
-  transition-delay: 0s;
-}
-
-@keyframes myAnimation {
-  0% {
-    left: 0px;
-    top: 100px;
-  }
-
-  50% {
-    left: 0px;
-    top: 0px;
-  }
-
-
-  100% {
-    left: 0px;
-    top: 0px;
-  }
-}
-
-.main {
-  background-image: url(gambar/Hitam\ \(2\).png);
-}
-
-.main>h6 {
-  word-spacing: 4px;
-  font-size: 23px;
-}
-
-.button {
-  text-align: left;
-  justify-content: left;
-  font-size: larger;
-  font-family: fantasy;
-  margin-left: 10rem;
-  color: rgb(0, 0, 0);
-}
-
-.button>button {
-  padding: 0.5rem;
-  border-radius: 10px;
-  background-color: black;
-  margin-top: -9rem;
-  list-style-type: none;
-  text-decoration: none;
-  border-style: none;
-  text-align: left;
-  justify-content: left;
-  align-items: left;
-  font-size: large;
-}
-
-.button>button>a {
-  color: white;
-  list-style-type: none;
-  text-decoration: none;
-  border-style: none;
-  text-align: left;
-  justify-content: left;
-  align-items: left;
-  font-size: large;
-}
-
-.button>button>a:hover {
-  background-color: rgb(255, 255, 255);
-  color: black;
-  transition: 0.4s ease-in;
-  transition: 0.4s ease-out;
-  border-radius: 10px;
-  padding: 0.6rem;
-  transition-delay: 0.2s;
-}
-
-.jadwal {
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  color: black;
-}
-
-.jadwal>table,
-th,
-td {
-  padding: 15px;
-  justify-content: center;
-  text-align: center;
-  word-spacing: 5px;
-  margin-left: 25rem;
-  margin-top: 5rem;
-
-}
-
-.buttoni {
-  background-color: rgb(0, 0, 0);
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  padding: -5px;
-}
-
-.followus {
-  background-color: rgb(0, 0, 0);
-  color: white;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  font-size: 10px;
-  font-weight: 200;
-}
-
-.followus>h2 {
-  background-color: rgb(0, 0, 0);
-  color: white;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-  padding-bottom: 20px;
-}
-
-.followus>h2>a {
-  color: white;
-}
-
-.butt {
-  background-color: rgb(0, 0, 0);
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
-.CONTACT-mu {
-  background-color: black;
-  color: white;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  font-size: 9px;
-}
-
-/* gambare */
-.Gambare {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: black;
-}
-
-/* LINK */
-.content {
-  background-color: rgb(0, 0, 0);
-  color: white;
-  height: 50px;
-}
-
-.content>h2 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  padding: 2rem;
-  margin: 1rem;
-}
-
-.konten {
-  background-image: url(gambar/matalukotok.png);
-}
-
-.konten {
-  background-color: black;
-  justify-content: center;
-  text-align: center;
-  padding: 2rem;
-  margin-top: -2.5rem;
-  color: white;
-  height: 400px;
-}
-
-
-.konten>h6 {
-  height: 2px;
-  background-color: white;
-  margin-top: -1rem;
-  margin-bottom: 1rem;
-  color: black;
-}
-
-.konten>h3 {
-  font-size: 25px;
-  margin-top: 2rem;
-}
-
-.presnt {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 300px;
-  background-color: black;
-}
-
-.presnt>h6 {
-  height: 2px;
-  background-color: white;
-  margin-top: -1rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 1rem;
-  color: black;
-}
-
-.presnt>img {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 300px;
-  height: 300px;
-}
-
-.presnt>h2 {
-  color: white;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  position: relative;
-  animation-name: myAnimation;
-  animation-duration: 2s;
-  animation-delay: 0.1s;
-  transition-delay: 0s;
-}
-
-/* profile info register */
-.maineg {
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  margin-top: 4rem;
-  font-size: 40px;
-}
-
-.maineg>h1 {
-  padding-top: 5rem;
-  margin-top: 4rem;
-
-}
-
-.maineg>h6 {
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  margin-top: -0.5rem;
-}
-
-.maineg>h5 {
-  height: 3px;
-  background-color: rgb(0, 0, 0);
-  margin-top: 1rem;
-  margin-bottom: 6rem;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  margin-left: 20rem;
-  margin-right: 20rem;
-  color: #d6c0a3;
-}
-
-.infg>h1 {
-  justify-content: left;
-  text-align: left;
-  align-items: left;
-  margin-bottom: -2.5rem;
-  margin-left: 3rem;
-  margin-top: 10rem;
-}
-
-.lain {
-  justify-content: right;
-  text-align: right;
-  align-items: right;
-  margin-bottom: -2rem;
-  margin-right: 3rem;
-  margin-top: 8rem;
-}
-
-.lain>p {
-  margin-top: 1rem;
-  font-size: larger;
-}
-
-.lain>h6 {
-  height: 3px;
-  background-color: rgb(0, 0, 0);
-  margin-top: -7rem;
-  margin-bottom: 3rem;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  margin-left: 3rem;
-  color: #d6c0a3;
-}
-
-.kale {
-  justify-content: left;
-  text-align: left;
-  align-items: left;
-  margin-bottom: 4rem;
-  margin-left: 3rem;
-  margin-top: 5rem;
-}
-
-.kale>h1 {
-  margin-bottom: 1rem;
-}
-
-.kale>h6 {
-  height: 3px;
-  background-color: rgb(0, 0, 0);
-  margin-top: 8rem;
-  margin-bottom: 3rem;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  margin-left: rem;
-  margin-right: 2rem;
-  color: #d6c0a3;
-}
-
-.kale>ul>li {
-  text-decoration: none;
-  list-style-type: none;
-  list-style: none;
-  margin-top: 0.5rem;
-}
-
-.infg>table {
-  justify-content: center;
-  text-align: center;
-  word-spacing: 5px;
-  width: 100%;
-  font-size: larger;
-  margin-top: 2rem;
-  margin-left: 2rem;
-}
-
-.wa>a {
-  list-style-type: none;
-  list-style: none;
-  text-decoration: none;
-  margin-right: 0.5rem;
-}
-
-.putra {
-  justify-content: left;
-  text-align: left;
-  align-items: left;
-  color: black;
-}
-
-.uang {
-  justify-content: right;
-  text-align: right;
-  align-items: right;
-  color: black;
-}
-
-/* line */
-.line {
-  background-color: white;
-  box-shadow: 0 7px 15px rgb(247, 247, 255);
-}
-
-/* CRIGHT */
-.CORIGHT {
-  background-color: rgb(0, 0, 0);
-  color: white;
-  justify-content: left;
-  text-align: left;
-  padding: 2rem;
-}
-
-/* CRIGHT */
-.CORIGHT>h6 {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  margin: 1rem;
-  height: 2px;
-  margin-bottom: 2rem;
-}
-
-.CORIGHT>h5 {
-  text-align: center;
-}
-
-.CORIGHT>h5>a {
-  color: white;
-  text-decoration: none;
-  list-style-type: none;
-  text-align: center;
-}
-
-.CORIGHT>button {
-  width: 50px;
-  height: 50px;
-  position: relative;
-  margin-left: 500px;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  background-color: black;
-  border-style: none;
-}
-
-.gambarwa1 {
-  width: 50px;
-  height: 50px;
-}
-
-.gambarwa2 {
-  width: 50px;
-  height: 50px;
-
-}
-
-.gambarig1 {
-  width: 50px;
-  height: 50px;
-}
-
-.gambartiktok {
-  width: 70px;
-  height: 70px;
-}
-
-.gambarig2 {
-  width: 50px;
-  height: 50px;
-}
-
-.namakaka {
-  font-size: 20px;
-  text-decoration: none;
-  list-style-type: none;
-  text-align: center;
-}
-
-.namachandra {
-  font-size: 20px;
-  text-decoration: none;
-  list-style-type: none;
-  text-align: center;
-
-}
-
-.igpibama {
-  font-size: 20px;
-  text-decoration: none;
-  list-style-type: none;
-  text-align: center;
-}
-
-
-.igevent {
-  font-size: 20px;
-  text-decoration: none;
-  list-style-type: none;
-  text-align: center;
-}
-
-/* galeri */
-.coming {
-  font-size: 40px;
-  text-align: center;
-  margin-top: 10rem;
-  font-family: fantasy;
-}
-
+   <div class="menubtn">
+                <a onclick="TopNavBar.openNavItem('services')"
+                    class="tnb-nav-btn w3-bar-item w3-button barex bar-item-hover ga-top ga-top-services w3-tooltip mystyle"
+                    href="javascript:void(0)" id="navbtn_services" aria-label="All our services" role="button">
+                    <span class="w3-text" id="button-to-open-services">Close menu</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                        <path
+                            d="M320 208C289.1 208 264 182.9 264 152C264 121.1 289.1 96 320 96C350.9 96 376 121.1 376 152C376 182.9 350.9 208 320 208zM320 432C350.9 432 376 457.1 376 488C376 518.9 350.9 544 320 544C289.1 544 264 518.9 264 488C264 457.1 289.1 432 320 432zM376 320C376 350.9 350.9 376 320 376C289.1 376 264 350.9 264 320C264 289.1 289.1 264 320 264C350.9 264 376 289.1 376 320z">
+                        </path>
+                    </svg>
+                    <span style="font-size:120px;">&nbsp;</span>
+                    <i aria-hidden="true" style="display: none;"></i>
+                    <i aria-hidden="true" style="display: inline;"></i>
+                </a>
+            </div>
+
+
+            
 @media screen and (max-width: 476px) {
 
 
@@ -704,8 +54,7 @@ td {
   }
 
   .ul-BAR {
-    max-width: 476px;
-    box-decoration-break : none;
+    box-decoration-break: none;
     display: flex;
     position: relative;
     align-items: center;
@@ -803,14 +152,15 @@ td {
     position: absolute;
   }
 
-  .main {
-  }
+  .main {}
 
   .main>h1 {
-    margin-left: -7.5rem;
-    font-size: 70px;
-    word-wrap: normal;
+    text-align: left;
+    justify-content: left;
+    font-family: fantasy;
+    font-size: large;
     padding: 0rem;
+    color: rgb(0, 0, 0);
     position: relative;
     animation-name: myAnimation;
     animation-duration: 2s;
@@ -819,7 +169,6 @@ td {
   }
 
   .main>h6 {
-    margin-left: -7.5rem;
     position: relative;
     animation-name: myAnimation;
     animation-duration: 2s;
@@ -828,10 +177,6 @@ td {
   }
 
   .button {
-    text-align: left;
-    justify-content: left;
-    align-items: left;
-    margin-left: 2.5rem;
     width: 67px;
     height: 37px;
     position: relative;
@@ -866,6 +211,15 @@ td {
   .main>h6 {
     word-spacing: 4px;
     font-size: 23px;
+  }
+
+  .button {
+    text-align: left;
+    justify-content: left;
+    font-size: larger;
+    font-family: fantasy;
+    margin-left: 10rem;
+    color: rgb(0, 0, 0);
   }
 
   .button>button {

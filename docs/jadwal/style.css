@@ -1,8 +1,8 @@
 * {
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .atas {
@@ -17,7 +17,7 @@
   box-shadow: 0 7px 15px rgb(0, 0, 0.5);
 }
 
-.atas > img {
+.atas>img {
   height: 150px;
   width: 120px;
   justify-content: center;
@@ -27,15 +27,15 @@
 }
 
 .home {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
-.home > h4 {
-    margin-top: 15;
+.home>h4 {
+  margin-top: 15;
 }
 
-.home > h4 > a {
+.home>h4>a {
   text-decoration: none;
   list-style: none;
   list-style-type: none;
@@ -47,16 +47,16 @@
   padding: 5px;
 }
 
-.info{
-    width: 100px;
-    height: 100px;
+.info {
+  width: 100px;
+  height: 100px;
 }
 
-.info > h4 {
-    margin-top: 15;
+.info>h4 {
+  margin-top: 15;
 }
 
-.info > h4 > a {
+.info>h4>a {
   text-decoration: none;
   list-style: none;
   list-style-type: none;
@@ -68,16 +68,16 @@
   padding: 5px;
 }
 
-.jadwal{
-    width: 100px;
-    height: 100px;
+.jadwal {
+  width: 100px;
+  height: 100px;
 }
 
-.jadwal > h4 {
-    margin-top: 15;
+.jadwal>h4 {
+  margin-top: 15;
 }
 
-.jadwal > h4 > a {
+.jadwal>h4>a {
   text-decoration: none;
   list-style: none;
   list-style-type: none;
@@ -89,7 +89,7 @@
   padding: 5px;
 }
 
-.badan > h1 {
+.badan>h1 {
   text-align: center;
   margin-top: 100px;
   font-size: 150px;
@@ -101,7 +101,9 @@
   margin: 5px;
   margin-bottom: 50px;
   margin-top: 5px;
-  position: relative;
-  resize: both;
-  overflow: auto;
+}
+
+.pmatch {
+  width: 100%;
+  height: 100%;
 }

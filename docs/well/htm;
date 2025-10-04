@@ -706,3 +706,16 @@
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+
+   <div class="atas">
+        <img src="../gambar/LOGO-r.png" alt="Logo Seraphine Cup 2K25">
+        <li class="home">
+            <h4><a href="../index.html">HOME</a></h4>
+        </li>
+        <li class="info">
+            <h4><a href="../info.html">INFO</a></h4>
+        </li>
+        <li class="jadwal">
+            <h4><a href="#">SCHEDULE</a></h4>
+        </li>
+    </div>
